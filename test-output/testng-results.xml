@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Page Object Model with Page Factories" duration-ms="55884" started-at="2019-05-29T02:49:41Z" finished-at="2019-05-29T02:50:37Z">
+    <groups>
+    </groups>
+    <test name="Amazon Test Case" duration-ms="55884" started-at="2019-05-29T02:49:41Z" finished-at="2019-05-29T02:50:37Z">
+      <class name="com.amazon.testcases.ProductSearchTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.amazon.testcases.ProductSearchTest@29647f75]" name="launchBrowser" is-config="true" duration-ms="10069" started-at="2019-05-29T08:19:31Z" finished-at="2019-05-29T08:19:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="productSearch(java.util.Hashtable)[pri:0, instance:com.amazon.testcases.ProductSearchTest@29647f75]" name="productSearch" duration-ms="55105" started-at="2019-05-29T08:19:41Z" data-provider="dp" finished-at="2019-05-29T08:20:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{secondProduct=redmi note 6a mobile phone, runmode=Y, productname=aqua j3 mobile phone}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSearch -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.amazon.testcases.ProductSearchTest@29647f75]" name="quitBrowser" is-config="true" duration-ms="961" started-at="2019-05-29T08:20:37Z" finished-at="2019-05-29T08:20:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.amazon.testcases.ProductSearchTest -->
+    </test> <!-- Amazon Test Case -->
+  </suite> <!-- Page Object Model with Page Factories -->
+</testng-results>

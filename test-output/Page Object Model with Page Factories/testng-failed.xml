@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Page Object Model with Page Factories]">
+  <listeners>
+    <listener class-name="com.goa.listeners.CustomListeners"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="SignUp Test(failed)">
+    <classes>
+      <class name="com.amazon.testcases.ProductSearchTest">
+        <methods>
+          <include name="productSearch" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.amazon.testcases.ProductSearchTest -->
+    </classes>
+  </test> <!-- SignUp Test(failed) -->
+</suite> <!-- Failed suite [Page Object Model with Page Factories] -->

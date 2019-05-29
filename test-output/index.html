@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Page_Object_Model_with_Page_Factories">
+              <span class="suite-name border-passed">Page Object Model with Page Factories</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Page_Object_Model_with_Page_Factories">
+                    <span>C:\Users\NBWS\Desktop\HybridFrameWork WorkSpace\AmazonAutomation\src\test\resources\runner\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Page_Object_Model_with_Page_Factories">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Page_Object_Model_with_Page_Factories">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Page_Object_Model_with_Page_Factories">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Page_Object_Model_with_Page_Factories">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Page_Object_Model_with_Page_Factories">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Page_Object_Model_with_Page_Factories">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Page_Object_Model_with_Page_Factories" class="hide-methods passed suite-Page_Object_Model_with_Page_Factories"> (hide)</a> <!-- hide-methods passed suite-Page_Object_Model_with_Page_Factories -->
+                      <a href="#" panel-name="suite-Page_Object_Model_with_Page_Factories" class="show-methods passed suite-Page_Object_Model_with_Page_Factories"> (show)</a> <!-- show-methods passed suite-Page_Object_Model_with_Page_Factories -->
+                    </span>
+                    <div class="method-list-content passed suite-Page_Object_Model_with_Page_Factories">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_Model_with_Page_Factories" title="com.amazon.testcases.ProductSearchTest" hash-for-method="productSearch({secondProduct=redmi note 6a mobile phone, runmode=Y, productname=aqua j3 mobile phone})">productSearch({secondProduct=redmi note 6a mobile phone, runmode=Y, productname=aqua j3 mobile phone})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Page_Object_Model_with_Page_Factories -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Page_Object_Model_with_Page_Factories" class="panel Page_Object_Model_with_Page_Factories">
+          <div class="suite-Page_Object_Model_with_Page_Factories-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.amazon.testcases.ProductSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="productSearch({secondProduct=redmi note 6a mobile phone, runmode=Y, productname=aqua j3 mobile phone})">
+                  </a> <!-- productSearch({secondProduct=redmi note 6a mobile phone, runmode=Y, productname=aqua j3 mobile phone}) -->
+                  <span class="method-name">productSearch</span>
+                  <span class="parameters">({secondProduct=redmi note 6a mobile phone, runmode=Y, productname=aqua j3 mobile phone})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Page_Object_Model_with_Page_Factories-class-passed -->
+        </div> <!-- panel Page_Object_Model_with_Page_Factories -->
+        <div panel-name="test-xml-Page_Object_Model_with_Page_Factories" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\NBWS\Desktop\HybridFrameWork WorkSpace\AmazonAutomation\src\test\resources\runner\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Page Object Model with Page Factories&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.goa.listeners.CustomListeners&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Amazon Test Case&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.amazon.testcases.ProductSearchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Amazon Test Case --&gt;
+&lt;/suite&gt; &lt;!-- Page Object Model with Page Factories --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Page_Object_Model_with_Page_Factories" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Page Object Model with Page Factories</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Amazon Test Case (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Page_Object_Model_with_Page_Factories" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Page Object Model with Page Factories</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Page_Object_Model_with_Page_Factories" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Page Object Model with Page Factories</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Page_Object_Model_with_Page_Factories');
+function tableData_Page_Object_Model_with_Page_Factories() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'productSearch')
+data.setCell(0, 2, 'com.amazon.testcases.ProductSearchTest')
+data.setCell(0, 3, 55105);
+window.suiteTableData['Page_Object_Model_with_Page_Factories']= { tableData: data, tableDiv: 'times-div-Page_Object_Model_with_Page_Factories'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 55 seconds</span>
+              <div id="times-div-Page_Object_Model_with_Page_Factories">
+              </div> <!-- times-div-Page_Object_Model_with_Page_Factories -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Page_Object_Model_with_Page_Factories" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Page Object Model with Page Factories</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Page_Object_Model_with_Page_Factories" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Page_Object_Model_with_Page_Factories" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.amazon.testcases.ProductSearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">productSearch({secondProduct=redmi note 6a mobile phone, runmode=Y, productname=aqua j3 mobile phone})</span>
+                <span class="method-start">10139 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">66053 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
