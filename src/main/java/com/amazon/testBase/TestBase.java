@@ -92,11 +92,11 @@ public class TestBase {
 			System.out.println(System.getProperty("os.name"));
 			if(browser.equalsIgnoreCase("firefox")){
 				System.out.println(System.getProperty("user.dir"));
-				System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"/drivers/geckodriver");
+				System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"/src/test/resources/executables/drivers/geckodriver");
 				driver = new FirefoxDriver();
 			}
 			else if(browser.equalsIgnoreCase("chrome")){
-				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/drivers/chromedriver");
+				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/src/test/resources/executables/drivers/chromedriver");
 				driver = new ChromeDriver();
 			}
 		}
